@@ -1,0 +1,228 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+body{
+    background-color: white;
+}
+nav{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.svg-1{
+    fill: black;
+    font-size: 30px;
+}
+nav img{
+    width: 20%;
+}
+.saldo{
+    background-color: #0a8602;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0px 0px 5px #0ca701;
+}
+.svg-2{
+    fill: #11ff00;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.saldo p{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.saldo span{
+    margin-left: 10px;
+}
+.video{
+    background-color: black;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.player{
+    width: 90%;
+    margin: auto;
+}
+.video p{
+    color: white;
+    margin: 30px 0;
+    font-size: 12px;
+}
+.video a{
+    background-color: #9600d1;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px #9600d1;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.comentarios{
+    background-color: white;
+    padding: 20px 0;
+}
+.ctr-comments{
+    margin: auto;
+    width: 90%;
+    border: solid 1px #dddddd;
+    border-radius: 20px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    max-width: 1280px;
+}
+b{
+    border-bottom: solid 1px #dddddd;
+    display: block;
+    font-size: 14px;
+}
+.comment-area, .reply-area{
+    display: flex;
+    margin-top: 15px;
+    padding-left: 5px;
+    width: 100%;
+}
+.comment-area img, .reply-area img{
+    height: 48px;
+    border-radius: 100px;
+}
+.space-reply{
+    width: 70px;
+    border-right: solid 1px #f0f0f0;
+    margin-right: 5px;
+}
+.comment-box{
+    width: 100%;
+    margin-left: 5px;
+    position: relative;
+}
+.comment{
+    background-color: #EAEBEF;
+    border-radius: 20px;
+    padding: 5px 10px 3px;
+}
+.name{
+    color: #3658AF;
+    font-size: 12px;
+    font-weight: bold;
+}
+.text{
+    font-size: 14px;
+}
+.comment span{
+    color: #3658AF;
+}
+button{
+    border: none;
+    background-color: white;
+    color: #3658AF;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    color: #0b4bee;
+}
+.comment-buttons{
+    font-size: 12px;
+    color: #a1a1a1;
+    margin-top: 3px;
+}
+.reacts{
+    background-color: white;
+    display: inline-flex;
+    border: solid 3px #EAEBEF;
+    border-radius: 100px;
+    padding: 0px 3px;
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%, -100%);
+}
+.reacts img{
+    height: 18px;
+    margin-right: 3px;
+}
+.reacts p{
+    font-size: 13px;
+    color: #0b4bee;
+}
+.fb-footer{
+    text-align: center;
+    margin-top: 10px;
+}
+.fb-footer b{
+    border: none;
+    color: #7c7c7c;
+}
+.fb-footer p{
+    color: #3658AF;
+}
+.final{
+    background-color: white;
+    text-align: center;
+}
+.desconto{
+    width: 90%;
+    margin: auto;
+    background-color: #29273a;
+    color: white;
+    padding: 10px 0;
+}
+.preco{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 70px;
+    margin: 20px 0;
+}
+.rs{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-weight: bold;
+    transform: translate(-120%,-50%);
+    font-size: 20px;
+}
+.preco h1{
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.centavos{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(0%,-50%);
+    font-size: 20px;
+}
+ul{
+    margin-bottom: 30px;
+}
+li{
+    margin: 5px 0;
+}
+.final a{
+    background-color: #0ca701;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.final img{
+    margin-top: 30px;
+}
